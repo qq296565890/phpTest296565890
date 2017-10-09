@@ -1,0 +1,33 @@
+{
+  "name": "qq296565890/phpTest296565890",
+  "description": "测试包 描述",
+  "keywords": [
+    "296565890",
+    "qq296565890"
+  ],
+  "homepage": "https://github.com/qq296565890/phpTest296565890",
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/qq296565890/phpTest296565890"
+  },
+  "authors": [
+    {
+      "name": "zhengwei,
+      "email": "296565890@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.3.3"   
+  },
+  "autoload": {
+    "psr-4": { "phpTest296565890\\": "src/phpTest296565890/" }
+  },
+  "autoload-dev": {
+        "psr-4": { "phpTest296565890\\Tests\\": "tests/" }
+    },
+  "config": {
+    "process-timeout": 1800
+  }
+}
