@@ -1,0 +1,25 @@
+{
+  "name": "qq296565890/helloworld",
+  "type": "library",
+  "description": "A simple way to work with date and time in PHP. It contains a powerful schedule maker.",
+  "version": "1.0.0",
+  "keywords": [ "time", "hour", "date", "functions", "easy", "codemage", "schedule" ],
+  "homepage": "https://github.com/leoszcarvalho/composer",
+  "license": "MIT",
+  "minimum-stability": "beta",
+  "authors": [
+    {
+      "name": "Henrique Fernandez Teixeira",
+      "email": "hriqueft@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Leokbr\\Hello\\": "src/"
+    }
+  }
+}
